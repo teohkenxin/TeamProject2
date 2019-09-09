@@ -20,4 +20,7 @@ public class MyApp
             System.out.println("서로 다른 원");
         }
     }
+    
+    
+    
 }
