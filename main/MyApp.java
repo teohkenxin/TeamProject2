@@ -1,5 +1,5 @@
 package main;
-import TeamProject2.base;
+import base.*;
 /**
  * Write a description of class MyApp here.
  *
