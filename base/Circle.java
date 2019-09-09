@@ -1,5 +1,5 @@
 package base;
-
+import myInterface.*;
 
 /**
  * Write a description of class Circle here.
@@ -7,7 +7,7 @@ package base;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Circle
+public class Circle implements Shape
 {
     // instance variables - replace the example below with your own
     private int x;
@@ -23,5 +23,13 @@ public class Circle
         this.y = y;
         this.radius = radius;
     }
-
+    
+    public double getArea(){ //면적?�� 계산?��?�� 메소?�� 
+        double area = PI * (this.radius * this.radius);
+        return area;
+    }
+    
+    public void draw(){ // ?��?��?�� 그리?�� 메소?�� 
+        System.out.println("반�?름이 " + this.radius + "?�� ?��?��?��?��.");
+    }
 }
