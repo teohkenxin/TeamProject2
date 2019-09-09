@@ -2,15 +2,18 @@ package main;
 import base.*;
 
 /**
- * Write a description of class MyApp here.
+ * MyApp의 가지고 있는 메인 메소드 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (스피겔 크릴 2017605038, 테오 켄신 2018771052)
+ * @version (2019/09/09)
  */
 
 
 public class MyApp
 {
+    
+    
+    
     public static void main(String[] args){
         Circle c1 = new Circle(2, 3, 5);
         Circle c2 = new Circle(2, 3, 10);
