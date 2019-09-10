@@ -13,13 +13,9 @@ public interface Shape
     final double PI = 3.14; // �?수
     
     
-    void draw(); // �?�형�?� 그리는 추�? 메소드
+    void draw(); 
     
-    double getArea(); // �?�형�?� 면�?�?� 리턴하는 추�? 메소드
+    double getArea();
     
-    default public void redraw(){ // 디�?�트 메소드
-        System.out.print("--- 다시 그립니다. "); 
-        draw(); 
-    } 
 }
 

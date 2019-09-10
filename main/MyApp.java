@@ -11,9 +11,7 @@ import base.*;
 
 public class MyApp
 {
-    
-    
-    
+
     public static void main(String[] args){
         Circle c1 = new Circle(2, 3, 5);
         Circle c2 = new Circle(2, 3, 10);
@@ -25,7 +23,5 @@ public class MyApp
             System.out.println("서로 다른 원");
         }
     }
-    
-    
-    
+
 }

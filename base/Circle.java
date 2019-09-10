@@ -9,27 +9,23 @@ import myInterface.*;
  */
 public class Circle implements Shape
 {
-    // instance variables - replace the example below with your own
     public int x;
     public int y;
     public double radius;
     
-    /**
-     * Constructor for objects of class Circle
-     */
-    public Circle(int x, int y, double radius)
+    public Circle(int x, int y, double radius) // Constructor
     {
         this.x = x;
         this.y = y;
         this.radius = radius;
     }
     
-    public double getArea(){ //면적?�� 계산?��?�� 메소?�� 
+    public double getArea(){  // calculation 
         double area = PI * (this.radius * this.radius);
         return area;
     }
     
-    public void draw(){ // ?��?��?�� 그리?�� 메소?�� 
+    public void draw(){ 
         System.out.println("반�?름이 " + this.radius + "?�� ?��?��?��?��.");
     }
     
