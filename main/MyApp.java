@@ -2,12 +2,11 @@ package main;
 import base.*;
 
 /**
- * MyApp의 가지고 있는 메인 메소드 
+ * MyApp 가지고 있는 메인 메소드 
  *
  * @author (스피겔 크릴 2017605038, 테오 켄신 2018771052)
- * @version (2019/09/09)
+ * @version (2019/09/10)
  */
-
 
 public class MyApp
 {
